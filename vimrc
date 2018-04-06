@@ -4,7 +4,8 @@ execute pathogen#infect()
 " Syntax highlighting
 filetype on
 syntax on
-colorscheme Tomorrow-Night 
+
+"colorscheme Tomorrow-Night > set at cgywin 
 
 " Set font
 set guifont=Menlo\ Regular:h18
@@ -50,7 +51,7 @@ nmap <leader>n :NERDTreeToggle<CR>
 " autocmd VimEnter * wincmd p
 let NERDTreeIgnore=['\.DS_Store', '\~$', '\.swp']
 
-
-
+" YouCompleteMe configs
+let ycm_autoclose_preview_window_after_completion=1
 
 
