@@ -28,9 +28,29 @@ set expandtab
 set smartindent
 set autoindent
 
+set backspace=indent,eol,start
+
 set hlsearch
 
 set showmatch
 
 set cmdheight=2
+
+set laststatus=2
+
+set mouse=a
+
+" NerdTree configs
+
+let NERDTreeMapActivateNode='<right>'
+let NERDTreeShowHidden=1
+nmap <leader>j :NERDTreeFind<CR>
+nmap <leader>n :NERDTreeToggle<CR>
+autocmd VimEnter * NERDTree
+autocmd VimEnter * wincmd p
+let NERDTreeIgnore=['\.DS_Store', '\~$', '\.swp']
+
+
+
+
 
