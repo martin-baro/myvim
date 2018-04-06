@@ -46,8 +46,8 @@ let NERDTreeMapActivateNode='<right>'
 let NERDTreeShowHidden=1
 nmap <leader>j :NERDTreeFind<CR>
 nmap <leader>n :NERDTreeToggle<CR>
-autocmd VimEnter * NERDTree
-autocmd VimEnter * wincmd p
+" autocmd VimEnter * NERDTree
+" autocmd VimEnter * wincmd p
 let NERDTreeIgnore=['\.DS_Store', '\~$', '\.swp']
 
 
